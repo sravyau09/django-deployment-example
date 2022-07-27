@@ -11,7 +11,7 @@ def index(request):
     return render(request, 'firstapp/index.html', context=my_dict)
 
 def help(request):
-    helpdict = {'help_me':'Help page'}
+    helpdict = {'help_me':'Help me  page'}
     return render(request, 'firstapp/help.html', context=helpdict)
 
 def display_users(request):
